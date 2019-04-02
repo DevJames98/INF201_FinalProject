@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>My Goals</title>
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <style>
+      body{background-color: #000000; font-family: "Trebuchet MS", Helvetica, sans-serif;}
+    </style>
+    <script type="text/javascript" src="vision.js"></script>       <!--Link to External JavaScript-->
+
+  </head>
+
+  <body onload = "displayCurrentTime()">
+      <!--Banner-->
+      <div class="banner">
+        <div id="div1">
+        <img id="logo" src="Goals.png" alt="Goals">
+        </div>
+
+        <div id="div2">
+          <h1>My Goals</h1>
+        </div>
+
+        <div id="div3">
+          <p>
+            <b>Phone :</b> (347) 923-2937  <br><br>
+            <b>E-mail :</b> <a href="mailto:dajames@albany.edu" target="_top">dajames@albany.edu </a><br><br>
+            <b>LinkedIn :</b> <a href="https://www.linkedin.com/in/devjames98/">www.linkedin.com/in/devjames98/</a> <br><br>
+            <b>GitHub :</b> <a href="https://github.com/devjames98">github.com/devjames98</a>
+          </p>
+        </div>
+      </div><br>
+
+      <!--Navigational Bar-->
+      <div class="navbar">
+        <!--Links-->
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Purpose.html">Purpose</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Goals.html">Goals</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Books.html">Books</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/AboutMe.html">About Me</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/UsefulLinks.html">Useful Links</a></b>
+        </div>
+      </div><br>
+
+      <!--Container Div-->
+      <div id="contain">
+
+
+        <!--Side Bar-->
+        <div class="side">
+          <h2>Inspirational Quote</h2>
+          <p style="float:right; color:#ABAD48">
+            "If you are not making the progress that you would like to make and are capable of making, it is simply because your goals are not clearly defined" - Paul J. Meyer
+          </p><br><br><br>
+
+          <img src="KidGoals.jpg" alt="Patrick Meme" class="center" id="sidepic">
+          <br><br><br>
+          <h2>Page Info</h2>
+          <p style="float:right;">
+            Time To Create Page: 15 min       <br>
+            Number of Revisions: 55
+          </p>
+
+          <!--Part 2-->
+          <p style="float:right;">
+            Like my website? Hate my website? Leave a comment for me!
+          </p>
+          <form action=" http://cgi.albany.edu/~dj965117/FormMailDev.cgi" onsubmit="return validateComment()" method="post">
+            <input type="text" name="comment" value="" size="50" id="comment"/> <br><br>
+
+            <input type="hidden" name="recipient" value = "dj965117@albany.edu"/>
+            <input type="submit" name="submit" value="Submit"/>
+
+          </form>
+
+          <h4>Time Page was Loaded</h4>
+          <p id = "displayTime">
+
+          </p>
+
+        </div>
+
+        <!--Main Content-->
+        <div class="main">
+          <h2>Goals for 2018</h2>
+          <p>Click the button to see my goals!
+            <button type="button" onclick="printGoals()">Click Me!</button>
+          </p>
+          <ol id = "goals">
+            <!--
+            <li>Maintaining my GPA at a 3.5 or higher</li>
+            <li>Make a beat tape</li>
+            <li>Improving in speed and tone on the piano</li>
+            <li>Getting to the top of the bonus scale in my business</li>
+            <li>Be proficient in at least 2 coding languages</li>
+            <li>Gain weight and muscle mass</li>
+            <li>Read at least 15 books</li>
+            <li>Build my own website</li>
+            <li>STAY POSITIVE!!!</li>
+            -->
+          </ol><br><br>
+
+          <h4 style="text-align:center">Why?</h4>
+          <p style="text-align:center">
+            "When I die, I want to know that even if I didn't get to do everything I wanted to within that time, everything I've done, every risk taken and where I end off was what I actually wanted to do."
+            <br><b><i>- Devon James</b></i><br><br><br>
+            Motivation: Conquer Laziness
+          </p>
+
+          <!--Part 2-->
+          <br><br>
+          <p style="text-align:center">
+            What are some of your goals for 2018? What motivates you to work towards achieving these goals year round? (If you don't have any, type "I don't have any.")
+          </p>
+
+          <input type="text" id="userGoals" size="150"/> <br><br>
+          <button type="button" onclick="EvalGoals()">Click for Motivation!</button>
+
+
+          <p id="goalResp">
+
+          </p>
+
+        </div>
+
+      </div><br><br>
+
+      <!--Footer Div-->
+      <div class="footer">
+        <p>
+          Website Author: Devon James   <br>
+          Class: INF 201                <br>
+          Prof: Norman Gervais          <br>
+          Year Made: 2018               <br>
+        </p>
+      </div><br>
+
+  </body>
+</html>

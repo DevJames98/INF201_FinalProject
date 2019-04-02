@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Useful Links</title>
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <style>
+      body{background-color: #000000; font-family: "Trebuchet MS", Helvetica, sans-serif;}
+    </style>
+    <script type="text/javascript" src="vision.js"></script>       <!--Link to External JavaScript-->
+  </head>
+
+  <body onload = "displayCurrentTime()">
+      <!--Banner-->
+      <div class="banner">
+        <div id="div1">
+        <img id="logo" src="Usage.jpeg" alt="Purpose">
+        </div>
+
+        <div id="div2">
+          <h1>Useful Links</h1>
+        </div>
+
+        <div id="div3">
+          <p>
+            <b>Phone :</b> (347) 923-2937  <br><br>
+            <b>E-mail :</b> <a href="mailto:dajames@albany.edu" target="_top">dajames@albany.edu </a><br><br>
+            <b>LinkedIn :</b> <a href="https://www.linkedin.com/in/devjames98/">www.linkedin.com/in/devjames98/</a> <br><br>
+            <b>GitHub :</b> <a href="https://github.com/devjames98">github.com/devjames98</a>
+          </p>
+        </div>
+      </div><br>
+
+      <!--Navigational Bar-->
+      <div class="navbar">
+        <!--Links-->
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Purpose.html">Purpose</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Goals.html">Goals</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Books.html">Books</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/AboutMe.html">About Me</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/UsefulLinks.html">Useful Links</a></b>
+        </div>
+      </div><br>
+
+      <!--Container Div-->
+      <div id="contain">
+
+
+        <!--Side Bar-->
+        <div class="side">
+          <h2>Inspirational Quote</h2>
+          <p style="float:right; color:#ABAD48">
+            "The deepest urge in human nature is the desire to be important" - John Dewey
+          </p><br><br><br>
+
+          <img src="Goku.jpg" alt="Patrick Meme" class="center" id="sidepic">
+          <br><br><br>
+          <h2>Page Info</h2>
+          <p style="float:right;">
+            Time To Create Page: 15 min       <br>
+            Number of Revisions: 47
+          </p>
+
+          <!--Part 2-->
+          <p style="float:right;">
+            Like my website? Hate my website? Leave a comment for me!
+          </p>
+          <form action=" http://cgi.albany.edu/~dj965117/FormMailDev.cgi" onsubmit="return validateComment()" method="post">
+            <input type="text" name="comment" value="" size="50" id="comment"/> <br><br>
+
+            <input type="hidden" name="recipient" value = "dj965117@albany.edu"/>
+            <input type="submit" name="submit" value="Submit"/>
+
+          </form>
+
+          <h4>Time Page was Loaded</h4>
+          <p id = "displayTime">
+
+          </p>
+
+        </div>
+
+        <!--Main Content-->
+        <div class="main">
+          <h2>Useful Links</h2>
+          <p>
+            Here, I would like to share with you some links that I personally find useful. I will be referring back to this page frequently whenever I need to find something. Here they are:
+          </p>
+          <ul>
+            <li>Infinite Waters YouTube - <a href="https://www.youtube.com/user/Kemetprince1">www.youtube.com/user/Kemetprince1</a></li>
+            <li>Piano Scales - <a href="https://www.pianoscales.org/">www.pianoscales.org/</a></li>
+            <li>Blackboard - <a href="https://blackboard.albany.edu/webapps/login/">blackboard.albany.edu/webapps/login/</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li>more content to be added later :)</li>
+          </ul>
+
+          <hr>
+          <h3>Here's another useful "link"!</h3>
+          <p>If you'd like to contact me, please fill out this form. That way, we can keep in touch!</p>
+
+          <form action=" http://cgi.albany.edu/~dj965117/FormMailDev.cgi" onsubmit="return validateForm()" method="post">
+            <p>Enter your name:
+            <input type="text" name="name" value="" size="50" id="name"/> <br>
+            </p>
+
+            <p>Enter your e-mail address (if none, type "N/A"):
+            <input type="text" name="email" value="" size="70" id="email"/> <br>
+            </p>
+
+            <p>Enter your phone number (if none, type "N/A"):
+            <input type="text" name="phone" value="" size="15" id="phone"/> <br>
+            </p>
+
+            <p>Enter your reason for contact below: </p>
+            <input type="text" name="reason" value="" size="150" id="info"/> <br><br>
+
+            <input type="hidden" name="recipient" value = "dj965117@albany.edu"/>
+            <input type="submit" name="submit" value="Submit" onclick = "return checkmail(this.form.email)"/>
+
+
+          </form>
+
+
+        </div>
+
+      </div><br><br>
+
+      <!--Footer Div-->
+      <div class="footer">
+        <p>
+          Website Author: Devon James   <br>
+          Class: INF 201                <br>
+          Prof: Norman Gervais          <br>
+          Year Made: 2018               <br>
+        </p>
+      </div><br>
+
+  </body>
+</html>

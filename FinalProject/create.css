@@ -1,0 +1,152 @@
+#contain{
+  margin:0 auto;
+  padding:10px;
+  width:95%; /*border:1px solid blue;*/
+  height:1000px;
+}
+
+#links{
+  display:inline-block; /*border:1px solid black;*/
+  padding:10px;
+  width:18%;
+  text-align: center;
+
+}
+
+#div1{
+  display:inline-block; /*border:1px solid yellow;*/
+  padding:10px;
+  width:15%;
+  height:100px;
+  margin:5px;
+  vertical-align: top;
+}
+
+#div2{
+  display:inline-block; /*border:1px solid orange;*/
+  padding:10px;
+  width:59%;
+  height:100px;
+  margin: 5px;
+  color: #ABAD48; text-align: center;
+  vertical-align: top;
+  font-size: 25px;
+
+}
+
+#div3{
+  display:inline-block; /*border:1px solid white;*/
+  /*padding:10px; */
+  width:19%;
+  height:120px;
+  margin:5px;
+  vertical-align: top;
+  color: white; font-size:12px;
+
+}
+
+#logo{
+  height: 105px;
+  width:  205px;
+
+}
+
+#sidepic{
+height: 250px;
+width: 300px;
+
+}
+
+.banner{
+  margin: 0 auto;
+  padding:10px;
+  width:95%; /*border:1px solid red;*/
+  height: 125px;
+}
+
+.navbar{
+  margin: 0 auto;
+  padding:10px;
+  width:95%; /*border:1px solid black;*/
+  background-color: #14A989;
+  border-radius: 25px;
+}
+
+.side{
+  display:inline-block;
+  margin: 10px; /*border:1px solid black;*/
+  padding:10px;
+  width:25%;
+  background-color: #64609A;
+  height:950px;
+  vertical-align: top;
+  font-size: 16px;
+  border-radius: 25px;
+
+}
+
+.main{
+  display:inline-block;
+  margin: 10px; /*border:1px solid black;*/
+  padding:10px;
+  width:68.3%;
+  background-color: #3AA8C1;
+  height:950px;
+  vertical-align: top;
+  font-size: 20px;
+  border-radius: 25px;
+
+}
+
+.footer{
+  margin: 0 auto;
+  padding: 10px;
+  width:95%;
+  background-color: #14A989; /*border:1px solid black;*/
+  height:100px;
+  vertical-align: top;
+  text-align: center;
+  border-radius: 25px;
+}
+
+a:link{
+  color:#ABAD48;
+}
+
+a:visited{
+  color: #64609A;
+}
+
+a:hover{
+  color: #D05340;
+}
+
+a:active{
+  color: #BD559C;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Part 2 Additions*/
+button{
+  cursor:pointer;
+  cursor:hand
+}
+
+
+/*
+Colors
+---------------------------------------
+Peridot     -   #ABAD48
+Rose Quartz -   #BD559C
+Jasper      -   #D05340
+Moonstone   -   #3AA8C1
+Amethyst    -   #64609A
+Emerald     -   #14A989
+Black       -   #000000
+*/

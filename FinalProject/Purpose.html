@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Purpose of this Website</title>
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <style>
+      body{background-color: #000000; font-family: "Trebuchet MS", Helvetica, sans-serif;}
+    </style>
+    <script type="text/javascript" src="vision.js"></script>       <!--Link to External JavaScript-->
+  </head>
+
+  <body onload = "displayCurrentTime()">
+      <!--Banner-->
+      <div class="banner">
+        <div id="div1">
+        <img id="logo" src="Purpose.jpg" alt="Purpose">
+        </div>
+
+        <div id="div2">
+          <h1>Purpose of this Website</h1>
+        </div>
+
+        <div id="div3">
+          <p>
+            <b>Phone :</b> (347) 923-2937  <br><br>
+            <b>E-mail :</b> <a href="mailto:dajames@albany.edu" target="_top">dajames@albany.edu </a><br><br>
+            <b>LinkedIn :</b> <a href="https://www.linkedin.com/in/devjames98/">www.linkedin.com/in/devjames98/</a> <br><br>
+            <b>GitHub :</b> <a href="https://github.com/devjames98">github.com/devjames98</a>
+          </p>
+        </div>
+      </div><br>
+
+      <!--Navigational Bar-->
+      <div class="navbar">
+        <!--Links-->
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Purpose.html">Purpose</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Goals.html">Goals</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/Books.html">Books</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/AboutMe.html">About Me</a></b>
+        </div>
+        <div id="links">
+          <b><a href="https://www.albany.edu/~dj965117/FinalProject/UsefulLinks.html">Useful Links</a></b>
+        </div>
+      </div><br>
+
+      <!--Container Div-->
+      <div id="contain">
+
+
+        <!--Side Bar-->
+        <div class="side">
+          <h2>Inspirational Quote</h2>
+          <p style="float:right; color:#ABAD48">
+            "We are what we repeatedly do" - Aristotle
+          </p><br><br><br>
+
+          <img src="Patrick.jpg" alt="Patrick Meme" class="center" id="sidepic">
+          <br>
+          <h2>Page Info</h2>
+          <p style="float:right;">
+            Time To Create Page: 1.5 hours       <br>
+            Number of Revisions: 202
+          </p>
+
+          <!--Part 2-->
+          <p style="float:right;">
+            Like my website? Hate my website? Leave a comment for me!
+          </p>
+          <form action=" http://cgi.albany.edu/~dj965117/FormMailDev.cgi" onsubmit="return validateComment()" method="post">
+            <input type="text" name="comment" value="" size="50" id="comment"/> <br><br>
+
+            <input type="hidden" name="recipient" value = "dj965117@albany.edu"/>
+            <input type="submit" name="submit" value="Submit"/>
+
+          </form>
+          <h4>Time Page was Loaded</h4>
+          <p id = "displayTime">
+
+          </p>
+
+        </div>
+
+        <!--Main Content-->
+        <div class="main">
+          <h2>Why I Am Creating This Website</h2>
+          <p style="text-align:center;">
+            First off, I would like to welcome you to my Personal Goals Website! I have created this website as a public representation of my goals and things that I plan on getting done throughout the year of 2018. I actually got the idea from a YouTuber called Thomas Frank (go check him out!).
+          </p><br><br><br>
+          <p style="text-align:center;">
+            The theory behind making a website like this is so that people who view this website (close friends and family,etc.) can be able to hold you accountable to your goals so that you can take them more seriously (it's a psychological thing). Also, while creating a website like this, you are forcing yourself to think about and write down your goals as well as other things you may want to accomplish by the end of the year. This website also serves as a project for me to practice my web design skills by testing me in different areas of HTML/CSS.
+          </p><br><br><br>
+          <p style="text-align:center;">
+            The color scheme of this website uses some of the "Jewelry Stones" shades on the W3Schools website. Being that I have been looking into crystals and how they work (and if they work) lately, I was inspired to try to create a unique color scheme using the colors of certain crystals such as Peridot, Rose Quartz, Jasper, Moonstone, Amethyst, and Emerald. Being that I was born in the Month of May, Emerald is my birth stone, which is why it is primarily used throughout the wesite.
+          </p>
+
+          <!--Part 2-->
+          <br><br><br>
+          <p style="text-align:center;">
+            If you were to create a website, what type of website would you make? Why?
+          </p>
+          <input type="text" id="userPurpose" size="150"/> <br><br>
+          <button type="button" onclick="WebPurp()">Click for Motivation!</button>
+
+          <p id="purp">
+
+          </p>
+
+
+        </div>
+
+      </div><br><br>
+
+      <!--Footer Div-->
+      <div class="footer">
+        <p>
+          Website Author: Devon James   <br>
+          Class: INF 201                <br>
+          Prof: Norman Gervais          <br>
+          Year Made: 2018               <br>
+        </p>
+      </div><br>
+
+  </body>
+</html>
